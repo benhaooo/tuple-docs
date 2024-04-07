@@ -3,6 +3,8 @@ import { set_sidebar } from './gen_sidebar.mjs'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/tuple-docs/",
+  head: [["link", { rel: "icon", href: "/tuple-docs/logo.svg" }]],
   title: "tuple blog",
   description: "我来求索、我来赋值、我来塑造数字世界。我以程序织就算法经纬，春播灵感，秋收创新，静候智慧之树硕果累累",
   themeConfig: {
