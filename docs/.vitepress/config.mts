@@ -4,7 +4,7 @@ import { set_sidebar } from './gen_sidebar.mjs'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: "/tuple-docs/",
-  head: [["link", { rel: "icon", href: "/tuple-docs/assets/喜欢.svg" }]],
+  head: [["link", { rel: "icon", href: "/tuple-docs/喜欢.svg" }]],
   title: "Tuple 的文档站",
   description: "我来求索、我来赋值、我来塑造数字世界。我以程序织就算法经纬，春播灵感，秋收创新，静候脉络之树硕果累累",
   
@@ -29,7 +29,7 @@ export default defineConfig({
         },
       },
     },
-    logo: "/assets/喜欢.svg",
+    logo: "/喜欢.svg",
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
