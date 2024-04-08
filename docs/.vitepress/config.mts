@@ -29,7 +29,7 @@ export default defineConfig({
         },
       },
     },
-    logo: "/assets/喜欢.svg",
+    logo: "/tuple-docs/assets/喜欢.svg",
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },

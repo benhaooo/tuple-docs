@@ -7,7 +7,7 @@ hero:
   text: "我来求索、我来赋值、我来塑造数字世界。"
   tagline: "我以程序织就算法经纬，春播灵感，秋收创新，静候脉络之树硕果累累"
   image:
-    src: "assets/酷.svg"
+    src: "/tuple-docs/assets/酷.svg"
     alt: 背景图
   actions:
     - theme: brand
