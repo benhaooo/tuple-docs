@@ -1,0 +1,20 @@
+{
+    // 1. 图片保存路径
+    // 将图片保存在当前 Markdown 文件所在目录下的 "images" 文件夹中。
+    "MarkdownPaste.path": "${fileDirname}/images",
+
+    // 2. 禁用 HTML <img /> 标签
+    // 强制插件使用标准的 Markdown 语法 `![]()` 来插入图片，而不是 HTML 标签。
+    "MarkdownPaste.enableImgTag": false,
+
+    // 3. 静默模式，粘贴后不弹出确认框
+    // 设为 true 可以获得更流畅的体验，直接粘贴并生成链接。
+    "MarkdownPaste.silence": true,
+
+    // --- VS Code 内置 Markdown 拖放功能配置 ---
+    
+    // 拖放图片时的保存路径
+    "markdown.copyFiles.destination": {
+        "**/*": "${documentDirName}/images/"
+    }
+} 

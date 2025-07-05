@@ -1,0 +1,5 @@
+/node_modules
+/docs/.vitepress/cache
+
+# 忽略自动生成的index.md文件
+/docs/posts/**/index.md
