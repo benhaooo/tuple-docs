@@ -190,7 +190,10 @@ function generateIndexContent(indexPath, dirName, subDirs, mdFiles) {
 function generateNavAndSidebar() {
   const docsPath = path.resolve('docs')
   const postsDir = path.join(docsPath, 'posts')
-  const defaultNav = [{ text: '首页', link: '/' }]
+  const defaultNav = [
+    { text: '首页', link: '/' },
+    { text: 'AI 工具', link: 'http://ai.tech-tuple.top', target: '_blank' }
+  ]
   const defaultSidebar = {}
 
   if (!fs.existsSync(postsDir)) {
