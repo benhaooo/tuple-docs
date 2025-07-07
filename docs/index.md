@@ -18,10 +18,10 @@ hero:
     #   link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: ⚔️ Vue/React
+    details: 双刀流
+  - title: 🤖 AI in Coding
+    details: RTS
+  - title: 🚀 Learn Anything
+    details: 什么都学
 ---
